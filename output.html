@@ -1,0 +1,61 @@
+<?php
+# ----------------------------------------------------
+# ----- MINI ME CONTACT FORM
+# ----- Version 3.3
+# ----- Created on: 05/02/07
+# ----- Designed by: American Financing
+# ----- http://www.americanfinancing.net
+# ----- For more scripts, please visit us at http://www.americanfinancing.net/free-scripts.cfm
+# ----- Please feel free to modify this script for your own purpose.
+# ----- ENJOY!!!
+# ----------------------------------------------------
+# relay-hosting.secureserver.net
+
+
+// Receiving variables
+@$full_name = addslashes($_POST['FullName']);
+@$email = addslashes($_POST['Email']);
+@$phone_number = addslashes($_POST['Phone']);
+@$subject = addslashes($_POST['Subject']);
+@$question = addslashes($_POST['Comments']);
+
+// Validation
+if (! ereg('[A-Za-z0-9_-]+\@[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+', $email))
+{
+header("Location: error.php");
+exit;
+}
+
+//Sending Email to form owner
+# Email to Owner 
+$pfw_header = "From: $email";
+$pfw_subject = "BEDROCK STONE CONTACT FORM";
+// CHANGE THIS....
+$pfw_email_to = "kerzon@bedrockstoneanddesign.com";
+//......................
+$pfw_message = "Full Name: $full_name\n"
+. "Email: $email\n"
+. "Phone Number: $phone_number\n"
+. "Subject: $subject\n"
+. "Question: $question\n"
+. "\n"
+. "Provided By: Bedrock Stone & Design\n"
+. "http://www.bedrockstoneanddesign.com\n";
+@mail($pfw_email_to, $pfw_subject ,$pfw_message ,$pfw_header ) ;
+
+//Sending auto respond Email to user
+# Email to Owner 
+// CHANGE THIS....
+$pfw_header = "From: info@bedrockstoneanddesign.com";
+//...................................
+$pfw_subject = "Confirmation email - Auto Responder";
+$pfw_email_to = "$email";
+$pfw_message = "Full Name: $full_name\n"
+. "Email: $email\n"
+. "Phone Number: $phone_number\n"
+. "Question: $question";
+@mail($pfw_email_to, $pfw_subject ,$pfw_message ,$pfw_header ) ;
+
+header("Location: thank_you.php");
+
+?>

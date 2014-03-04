@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "bedrockstoneanddesign.com Statistics"
+AuthUserFile /var/chroot/home/content/37/7171137/html/stats/.statspwd
+Require valid-user
+DirectoryIndex index.html

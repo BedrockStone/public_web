@@ -1,0 +1,324 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+<?php include('include/topmenu.txt'); ?>
+
+
+
+<title>Welcome to Bedrock Stone &amp; Design!</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 00px;
+	background-image: url(images/bgpattern.jpg);
+}
+.style2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.style6 {
+	color: #E7E6B7;
+	font-size: 10px;
+}
+.style8 {font-size: 12px; font-weight: bold; color: #FDFDFD; }
+.style9 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.style10 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #73724D;
+}
+a:link {
+	color: #FFFFFF;
+}
+a:visited {
+	color: #FFFFFF;
+}
+a:hover {
+	color: #FFFFFF;
+}
+a:active {
+	color: #FFFFFF;
+}
+-->
+</style>
+
+<script type="text/javascript">
+      
+/***********************************************
+* Ultimate Fade-In Slideshow (v1.51): © Dynamic Drive (http://www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+ 
+var fadeimages=new Array()
+//SET IMAGE PATHS. Extend or contract array as needed
+fadeimages[0]=["images/center_pic1.jpg", "", ""] //plain image syntax
+fadeimages[1]=["images/center_pic2.jpg", "", ""] //image with link syntax
+fadeimages[2]=["images/center_pic3.jpg", "", ""]
+fadeimages[3]=["images/center_pic4.jpg", "", ""] //image with link and target syntax
+fadeimages[4]=["images/center_pic5.jpg", "", ""] //image with link and target syntax
+fadeimages[5]=["images/center_pic6.jpg", "", ""] //image with link and target syntax
+
+ 
+var fadeimages2=new Array() //2nd array set example. Remove or add more sets as needed.
+//SET IMAGE PATHS. Extend or contract array as needed
+fadeimages2[0]=["photo1.jpg", "", ""] //plain image syntax
+fadeimages2[1]=["photo2.jpg", "http://www.cssdrive.com", ""] //image with link syntax
+fadeimages2[2]=["photo3.jpg", "http://www.javascriptkit.com", "_new"] //image with link and target syntax
+ 
+var fadebgcolor="white"
+
+////NO need to edit beyond here/////////////
+ 
+var fadearray=new Array() //array to cache fadeshow instances
+var fadeclear=new Array() //array to cache corresponding clearinterval pointers
+ 
+var dom=(document.getElementById) //modern dom browsers
+var iebrowser=document.all
+ 
+function fadeshow(theimages, fadewidth, fadeheight, borderwidth, delay, pause, displayorder){
+this.pausecheck=pause
+this.mouseovercheck=0
+this.delay=delay
+this.degree=10 //initial opacity degree (10%)
+this.curimageindex=0
+this.nextimageindex=1
+fadearray[fadearray.length]=this
+this.slideshowid=fadearray.length-1
+this.canvasbase="canvas"+this.slideshowid
+this.curcanvas=this.canvasbase+"_0"
+if (typeof displayorder!="undefined")
+theimages.sort(function() {return 0.5 - Math.random();}) //thanks to Mike (aka Mwinter) :)
+this.theimages=theimages
+this.imageborder=parseInt(borderwidth)
+this.postimages=new Array() //preload images
+for (p=0;p<theimages.length;p++){
+this.postimages[p]=new Image()
+this.postimages[p].src=theimages[p][0]
+}
+ 
+var fadewidth=fadewidth+this.imageborder*2
+var fadeheight=fadeheight+this.imageborder*2
+ 
+if (iebrowser&&dom||dom) //if IE5+ or modern browsers (ie: Firefox)
+document.write('<div id="master'+this.slideshowid+'" style="position:relative;width:'+fadewidth+'px;height:'+fadeheight+'px;overflow:hidden;"><div id="'+this.canvasbase+'_0" style="position:absolute;width:'+fadewidth+'px;height:'+fadeheight+'px;top:0;left:0;filter:progid:DXImageTransform.Microsoft.alpha(opacity=10);opacity:0.1;-moz-opacity:0.1;-khtml-opacity:0.1;background-color:'+fadebgcolor+'"></div><div id="'+this.canvasbase+'_1" style="position:absolute;width:'+fadewidth+'px;height:'+fadeheight+'px;top:0;left:0;filter:progid:DXImageTransform.Microsoft.alpha(opacity=10);opacity:0.1;-moz-opacity:0.1;-khtml-opacity:0.1;background-color:'+fadebgcolor+'"></div></div>')
+else
+document.write('<div><img name="defaultslide'+this.slideshowid+'" src="'+this.postimages[0].src+'"></div>')
+ 
+if (iebrowser&&dom||dom) //if IE5+ or modern browsers such as Firefox
+this.startit()
+else{
+this.curimageindex++
+setInterval("fadearray["+this.slideshowid+"].rotateimage()", this.delay)
+}
+}
+
+function fadepic(obj){
+if (obj.degree<100){
+obj.degree+=10
+if (obj.tempobj.filters&&obj.tempobj.filters[0]){
+if (typeof obj.tempobj.filters[0].opacity=="number") //if IE6+
+obj.tempobj.filters[0].opacity=obj.degree
+else //else if IE5.5-
+obj.tempobj.style.filter="alpha(opacity="+obj.degree+")"
+}
+else if (obj.tempobj.style.MozOpacity)
+obj.tempobj.style.MozOpacity=obj.degree/101
+else if (obj.tempobj.style.KhtmlOpacity)
+obj.tempobj.style.KhtmlOpacity=obj.degree/100
+else if (obj.tempobj.style.opacity&&!obj.tempobj.filters)
+obj.tempobj.style.opacity=obj.degree/101
+}
+else{
+clearInterval(fadeclear[obj.slideshowid])
+obj.nextcanvas=(obj.curcanvas==obj.canvasbase+"_0")? obj.canvasbase+"_0" : obj.canvasbase+"_1"
+obj.tempobj=iebrowser? iebrowser[obj.nextcanvas] : document.getElementById(obj.nextcanvas)
+obj.populateslide(obj.tempobj, obj.nextimageindex)
+obj.nextimageindex=(obj.nextimageindex<obj.postimages.length-1)? obj.nextimageindex+1 : 0
+setTimeout("fadearray["+obj.slideshowid+"].rotateimage()", obj.delay)
+}
+}
+ 
+fadeshow.prototype.populateslide=function(picobj, picindex){
+var slideHTML=""
+if (this.theimages[picindex][1]!="") //if associated link exists for image
+slideHTML='<a href="'+this.theimages[picindex][1]+'" target="'+this.theimages[picindex][2]+'">'
+slideHTML+='<img src="'+this.postimages[picindex].src+'" border="'+this.imageborder+'px">'
+if (this.theimages[picindex][1]!="") //if associated link exists for image
+slideHTML+='</a>'
+picobj.innerHTML=slideHTML
+}
+ 
+ 
+fadeshow.prototype.rotateimage=function(){
+if (this.pausecheck==1) //if pause onMouseover enabled, cache object
+var cacheobj=this
+if (this.mouseovercheck==1)
+setTimeout(function(){cacheobj.rotateimage()}, 100)
+else if (iebrowser&&dom||dom){
+this.resetit()
+var crossobj=this.tempobj=iebrowser? iebrowser[this.curcanvas] : document.getElementById(this.curcanvas)
+crossobj.style.zIndex++
+fadeclear[this.slideshowid]=setInterval("fadepic(fadearray["+this.slideshowid+"])",50)
+this.curcanvas=(this.curcanvas==this.canvasbase+"_0")? this.canvasbase+"_1" : this.canvasbase+"_0"
+}
+else{
+var ns4imgobj=document.images['defaultslide'+this.slideshowid]
+ns4imgobj.src=this.postimages[this.curimageindex].src
+}
+this.curimageindex=(this.curimageindex<this.postimages.length-1)? this.curimageindex+1 : 0
+}
+ 
+fadeshow.prototype.resetit=function(){
+this.degree=10
+var crossobj=iebrowser? iebrowser[this.curcanvas] : document.getElementById(this.curcanvas)
+if (crossobj.filters&&crossobj.filters[0]){
+if (typeof crossobj.filters[0].opacity=="number") //if IE6+
+crossobj.filters(0).opacity=this.degree
+else //else if IE5.5-
+crossobj.style.filter="alpha(opacity="+this.degree+")"
+}
+else if (crossobj.style.MozOpacity)
+crossobj.style.MozOpacity=this.degree/101
+else if (crossobj.style.KhtmlOpacity)
+crossobj.style.KhtmlOpacity=this.degree/100
+else if (crossobj.style.opacity&&!crossobj.filters)
+crossobj.style.opacity=this.degree/101
+}
+ 
+ 
+fadeshow.prototype.startit=function(){
+var crossobj=iebrowser? iebrowser[this.curcanvas] : document.getElementById(this.curcanvas)
+this.populateslide(crossobj, this.curimageindex)
+if (this.pausecheck==1){ //IF SLIDESHOW SHOULD PAUSE ONMOUSEOVER
+var cacheobj=this
+var crossobjcontainer=iebrowser? iebrowser["master"+this.slideshowid] : document.getElementById("master"+this.slideshowid)
+crossobjcontainer.onmouseover=function(){cacheobj.mouseovercheck=1}
+crossobjcontainer.onmouseout=function(){cacheobj.mouseovercheck=0}
+}
+this.rotateimage()
+}
+
+</script>
+
+
+
+
+</head>
+
+<body><script language="JavaScript1.2">mmLoadMenus();</script>
+
+<div align="center">
+  <table width="777" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td height="322" valign="top" background="images/bg.jpg"><div align="center">
+        <table width="770" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="770"><img src="images/top1.jpg" width="770" height="120"></td>
+          </tr>
+          <tr>
+            <td><img name="test2" src="test2.gif" width="770" height="26" border="0" usemap="#m_test2" alt=""></td>
+          </tr>
+          <tr>
+            <td height="4"><img src="images/1.jpg" width="1" height="5"></td>
+          </tr>
+          <tr>
+            <td><div align="center"><script type="text/javascript">
+//new fadeshow(IMAGES_ARRAY_NAME, slideshow_width, slideshow_height, borderwidth, delay, pause (0=no, 1=yes), optionalRandomOrder)
+new fadeshow(fadeimages, 770, 239, 0, 4800, 0)
+//new fadeshow(fadeimages2, 770, 239, 0, 3000, 0)
+</script></div></td>
+          </tr>
+          <tr>
+            <td height="4"></td>
+          </tr>
+          <tr>
+            <td height="283" valign="top" bgcolor="#C9C79A"><div align="center">
+              <br>
+              <table width="740" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="387" height="247" valign="top" bgcolor="#73724D"><div align="center">
+                    <table width="360" border="0" cellspacing="0" cellpadding="2">
+                      <tr>
+                        <td colspan="2"><img src="images/headers/home_residential.jpg" width="365" height="32"></td>
+                        </tr>
+                      <tr>
+                        <td width="176"><img src="images/spacer_home_olive.jpg" width="6" height="9"></td>
+                        <td width="185"><img src="images/spacer_home_olive.jpg" width="6" height="9"></td>
+                      </tr>
+                      <tr>
+                        <td><div align="left"><img src="images/home_leftpic1.jpg" width="165" height="93"></div></td>
+                        <td valign="top"><div align="left" class="style2"><span class="style8">Exterior Stone</span><span class="style6"><br>
+                          See our wide selection of  stones including Exterior stones, Interior stones, and Natural Stone Thin Veneer.</span></div></td>
+                      </tr>
+                      <tr>
+                        <td><img src="images/spacer_home_olive.jpg" width="6" height="9"></td>
+                        <td><img src="images/spacer_home_olive.jpg" width="6" height="9"></td>
+                      </tr>
+                      <tr>
+                        <td><img src="images/home_leftpic2.jpg" width="165" height="93"></td>
+                        <td><div align="left"><span class="style2"><span class="style8">Outdoor Living </span><span class="style6"><br>
+                          We have just what you need to create a beautiful Outdoor Living area including Pool Coping, Pool Decking, Landscaping, Outdoor Kitchens, and Outdoor Fireplaces.</span></span></div></td>
+                      </tr>
+                      <tr>
+                        <td><img src="images/spacer_home_olive.jpg" width="6" height="9"></td>
+                        <td><img src="images/spacer_home_olive.jpg" width="6" height="9"></td>
+                      </tr>
+                      <tr>
+                        <td><img src="images/home_leftpic3.jpg" width="165" height="93"></td>
+                        <td><div align="left">
+                          <p class="style2"><span class="style8">Builders / Architects</span><br>
+                                  <span class="style6">Are you a Builder / Architect / or<br>
+                                  Contractor?  Please see our area designed specifically for your service: </span><span class="style6"><br>
+                                    <br>
+                                  <u><a href="temp_commercial.php">Click here to Login &gt;</a> </u></span></p>
+                          </div></td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                      </tr>
+                    </table>
+                  </div></td>
+                  <td width="353" valign="top"><div align="center">
+                    <table width="360" border="0" cellspacing="0" cellpadding="2">
+                      <tr>
+                        <td width="352"><div align="center"><img src="images/headers/home_thinveneer.jpg" width="293" height="32"></div></td>
+                      </tr>
+                      <tr>
+                        <td height="58" valign="top"><div align="center" class="style9">Builders, architects, designers and homeowners, Natural Stone Thin Veneer is your solution to adding stone to any design. The 1 inch thick, pre-cut stone, comes in a variety of patterns and colors. The relatively light-weight application broadens your options when considering the best location for this beautiful, easy to use product. </div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="center"><img src="images/home_rightpic.jpg" width="331" height="261"></div></td>
+                      </tr>
+                      <tr>
+                        <td><div align="right"></div></td>
+                      </tr>
+                    </table>
+                  </div></td>
+                </tr>
+              </table>
+              <br>
+            </div></td>
+          </tr>
+        </table>
+        <span class="style10">&copy; Copyright 2007 - Bedrock Stone &amp; Design. All Rights Reserved. </span><br>
+      </div></td>
+    </tr>
+    <tr>
+      <td height="19">&nbsp;</td>
+    </tr>
+  </table>
+</div>
+</body>
+
+<?php include('include/maps.txt'); ?>
+</html>

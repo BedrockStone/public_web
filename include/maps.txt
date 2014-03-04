@@ -1,0 +1,9 @@
+<map name="m_test2">
+<area shape="rect" coords="26,9,64,22" href="index.php" alt="" >
+<area shape="rect" coords="563,8,633,21" href="contact.php" alt="" >
+<area shape="rect" coords="447,7,544,22" href="contact.php" alt="" >
+<area shape="rect" coords="372,8,426,22" href="#" alt="" onMouseOut="MM_startTimeout();"  onMouseOver="MM_showMenu(window.mm_menu_0816141315_0,372,22,null,'test2');"  >
+<area shape="rect" coords="247,8,350,21" href="#" alt="" onMouseOut="MM_startTimeout();"  onMouseOver="MM_showMenu(window.mm_menu_0816120146_0,248,21,null,'test2');"  >
+<area shape="rect" coords="168,9,227,21" href="#" alt="" onMouseOut="MM_startTimeout();"  onMouseOver="MM_showMenu(window.mm_menu_0816115830_0,169,22,null,'test2');"  >
+<area shape="rect" coords="87,9,142,21" href="#" alt="" onMouseOut="MM_startTimeout();"  onMouseOver="MM_showMenu(window.mm_menu_0816115546_1,88,25,null,'test2');"  >
+</map>

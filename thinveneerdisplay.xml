@@ -1,0 +1,93 @@
+<gallery 
+rows="4"
+cols="5"
+stage_width="713"
+stage_height="500"
+galleryMargin="40"
+thumb_width="80"
+thumb_height="80"
+thumb_space="24"
+thumbs_x="auto"
+thumbs_y="auto"
+large_x="auto"
+large_y="auto"
+nav_x="0"
+nav_y="0"
+nav_slider_alpha="50"
+nav_padding ="7"
+use_flash_fonts="false"
+nav_text_size="11"
+nav_text_bold="false"
+nav_font="Verdana"
+bg_alpha="100"
+text_bg_alpha="50"
+text_xoffset="20"
+text_yoffset="10"
+text_size="11"
+text_bold="false"
+text_font="Verdana"
+link_xoffset="-2"
+link_yoffset="5"
+link_text_size="11"
+link_text_bold="false"
+link_font="Verdana"
+border="5"
+corner_radius="5"
+shadow_alpha="40"
+shadow_offset="2"
+shadow_size="5"
+shadow_spread="0"
+friction=".3"
+bg_color="5E5F3D"
+border_color="FFFFFF"
+thumb_bg_color="FFFFFF"
+nav_color="999999"
+nav_slider_color="000000"
+txt_color="FFFFFF"
+text_bg_color="000000"
+link_text_color="666666"
+link_text_over_color="FF9900"
+auto_size="true"
+showHideCaption="true"
+autoShowFirst="false"
+disableThumbOnOpen="true"
+
+thmb_caption_offset="1"
+thumb_text_font="Verdana"
+thumb_text_size="10"
+thumb_txt_color="FFFFFF"
+thumb_text_bold="false"
+thumb_caption_width="90"
+thumb_text_align="center"
+
+>
+<pic image="images_thinveneerdisplay/display.jpg" title="display 1" caption="Display 1  " />
+<pic image="images_thinveneerdisplay/display1.jpg" title="display 2" caption="Display 2  " />
+<pic image="images_thinveneerdisplay/display2.jpg" title="display 3" caption="Display 3  " />
+<pic image="images_thinveneerdisplay/display3.jpg" title="display 4" caption="Display 4  " />
+<pic image="images_thinveneerdisplay/display4.jpg" title="display 5" caption="Display 5  " />
+<pic image="images_thinveneerdisplay/display5.jpg" title="display 6" caption="Display 6  " />
+<pic image="images_thinveneerdisplay/display6.jpg" title="display 7" caption="Display 7  " />
+<pic image="images_thinveneerdisplay/display7.jpg" title="display 8" caption="Display 8  " />
+<pic image="images_thinveneerdisplay/display8.jpg" title="display 9" caption="Display 9  " />
+<pic image="images_thinveneerdisplay/display9.jpg" title="display 10" caption="Display 10  " />
+<pic image="images_thinveneerdisplay/display10.jpg" title="display 11" caption="Display 11  " />
+<pic image="images_thinveneerdisplay/display11.jpg" title="display 12" caption="Display 12  " />
+<pic image="images_thinveneerdisplay/display12.jpg" title="display 13" caption="Display 13  " />
+<pic image="images_thinveneerdisplay/display13.jpg" title="display 14" caption="Display 14  " />
+<pic image="images_thinveneerdisplay/display14.jpg" title="display 15" caption="Display 15  " />
+<pic image="images_thinveneerdisplay/display15.jpg" title="display 16" caption="Display 16  " />
+<pic image="images_thinveneerdisplay/display16.jpg" title="display 17" caption="Display 17  " />
+<pic image="images_thinveneerdisplay/display17.jpg" title="display 18" caption="Display 18  " />
+<pic image="images_thinveneerdisplay/display18.jpg" title="display 19" caption="Display 19  " />
+<pic image="images_thinveneerdisplay/display19.jpg" title="display 20" caption="Display 20  " />
+<pic image="images_thinveneerdisplay/display20.jpg" title="display 21" caption="Display 21  " />
+<pic image="images_thinveneerdisplay/display21.jpg" title="display 22" caption="Display 22  " />
+<pic image="images_thinveneerdisplay/display22.jpg" title="display 23" caption="Display 23  " />
+<pic image="images_thinveneerdisplay/display23.jpg" title="display 24" caption="Display 24  " />
+<pic image="images_thinveneerdisplay/display24.jpg" title="display 25" caption="Display 25  " />
+<pic image="images_thinveneerdisplay/display25.jpg" title="display 26" caption="Display 26  " />
+<pic image="images_thinveneerdisplay/display26.jpg" title="display 27" caption="Display 27  " />
+<pic image="images_thinveneerdisplay/display27.jpg" title="display 28" caption="Display 28  " />
+
+</gallery>

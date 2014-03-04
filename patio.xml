@@ -1,0 +1,96 @@
+<gallery 
+rows="4"
+cols="5"
+stage_width="713"
+stage_height="500"
+galleryMargin="40"
+thumb_width="80"
+thumb_height="80"
+thumb_space="24"
+thumbs_x="auto"
+thumbs_y="auto"
+large_x="auto"
+large_y="auto"
+nav_x="0"
+nav_y="0"
+nav_slider_alpha="50"
+nav_padding ="7"
+use_flash_fonts="false"
+nav_text_size="11"
+nav_text_bold="false"
+nav_font="Verdana"
+bg_alpha="100"
+text_bg_alpha="50"
+text_xoffset="20"
+text_yoffset="10"
+text_size="11"
+text_bold="false"
+text_font="Verdana"
+link_xoffset="-2"
+link_yoffset="5"
+link_text_size="11"
+link_text_bold="false"
+link_font="Verdana"
+border="5"
+corner_radius="5"
+shadow_alpha="40"
+shadow_offset="2"
+shadow_size="5"
+shadow_spread="0"
+friction=".3"
+bg_color="5E5F3D"
+border_color="FFFFFF"
+thumb_bg_color="FFFFFF"
+nav_color="999999"
+nav_slider_color="000000"
+txt_color="FFFFFF"
+text_bg_color="000000"
+link_text_color="666666"
+link_text_over_color="FF9900"
+auto_size="true"
+showHideCaption="true"
+autoShowFirst="false"
+disableThumbOnOpen="true"
+
+thmb_caption_offset="1"
+thumb_text_font="Verdana"
+thumb_text_size="10"
+thumb_txt_color="FFFFFF"
+thumb_text_bold="false"
+thumb_caption_width="90"
+thumb_text_align="center"
+
+>
+<pic image="images_patio/ariz_buckskin_select.jpg" title="Arizona Buckskin Select" caption="Arizona  "  />
+<pic image="images_patio/ariz_buckskin_tan.jpg" title="Arizona Buckskin with Tan Grout" caption="Arizona  " />
+<pic image="images_patio/ariz_classic_oak.jpg" title="Arizona Classic Oak" caption="Arizona  " />
+<pic image="images_patio/ariz_rose.jpg" title="Arizona Rose" caption="Arizona  " />
+<pic image="images_patio/ariz_rose_pink.jpg" title="Arizona Rose Pink Grout" caption="Arizona  " />
+<pic image="images_patio/bedrock_buff.jpg" title="Bedrock Buff" caption="Bedrock  " />
+<pic image="images_patio/blue.jpg" title="Blue" caption="Blue  "/>
+<pic image="images_patio/colorado.jpg" title="Colorado" caption="Colorado  " />
+<pic image="images_patio/colorado_red.jpg" title="Colorado Red"  caption="Colorado  " />
+<pic image="images_patio/mex_blanca_canyon.jpg" title="Mexican Blanca Canyon" caption="Mexican  " />
+<pic image="images_patio/mex_brown.jpg" title="Mexican Brown" caption="Mexican  " />
+<pic image="images_patio/mex_charcoal_black.jpg" title="Mexican Charcoal Black" caption="Mexican  " />
+<pic image="images_patio/mex_charcoal.jpg" title="Mexican Charcoal" caption="Mexican  " />
+<pic image="images_patio/mex_porphy.jpg" title="Mexican Porphy" caption="Mexican  " />
+<pic image="images_patio/mex_sunset.jpg" title="Mexican Sunset" caption="Mexican  " />
+<pic image="images_patio/mex_rosewood_swirl.jpg" title="Mexico Rosewood Swirl" caption="Mexico  " />
+<pic image="images_patio/okla_bedrock_mix.jpg" title="Oklahoma Bedrock Mix" caption="Oklahoma  " />
+<pic image="images_patio/okla_blue.jpg" title="Oklahoma Blue" caption="Oklahoma  " />
+<pic image="images_patio/okla_buff_peach.jpg" title="Oklahoma Buff Peach" caption="Oklahoma  " />
+<pic image="images_patio/okla_buff_peach_1.jpg" title="Oklahoma Buff Peach" caption="Oklahoma  " />
+<pic image="images_patio/okla_buff_peach_walkway.jpg" title="Oklahoma Buff Peach - Walkway" caption="Oklahoma  " />
+<pic image="images_patio/okla_choc_blue_select.jpg" title="Oklahoma Chocolate/Blue Select" caption="Oklahoma  " />
+<pic image="images_patio/okla_choc_gold.jpg" title="Oklahoma Chocolate/Gold" caption="Oklahoma  " />
+<pic image="images_patio/okla_choc_gold_1.jpg" title="Oklahoma Chocolate/Gold" caption="Oklahoma  " />
+<pic image="images_patio/okla_sunset.jpg" title="Oklahoma Sunset" caption="Oklahoma  " />
+<pic image="images_patio/okla_sunset_1.jpg" title="Oklahoma Sunset" caption="Oklahoma  " />
+<pic image="images_patio/penn_full_color.jpg" title="Pennsylvania Full Color" caption="Pennsylvania  " />
+<pic image="images_patio/penn_full_color_1.jpg" title="Pennsylvania Full Color" caption="Pennsylvania  " />
+<pic image="images_patio/penn_full_color_select.jpg" title="Pennsylvania Full Color Select" caption="Pennsylvania  " />
+<pic image="images_patio/penn_lilac_select.jpg" title="Pennsylvania Lilac Select" caption="Pennsylvania  " />
+<pic image="images_patio/yellow.jpg" title="Yellow" caption="Yellow  " />
+
+</gallery>

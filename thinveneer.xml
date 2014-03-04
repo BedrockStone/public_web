@@ -1,0 +1,86 @@
+<gallery 
+rows="4"
+cols="5"
+stage_width="713"
+stage_height="500"
+galleryMargin="40"
+thumb_width="80"
+thumb_height="80"
+thumb_space="24"
+thumbs_x="auto"
+thumbs_y="auto"
+large_x="auto"
+large_y="auto"
+nav_x="0"
+nav_y="0"
+nav_slider_alpha="50"
+nav_padding ="7"
+use_flash_fonts="false"
+nav_text_size="11"
+nav_text_bold="false"
+nav_font="Verdana"
+bg_alpha="100"
+text_bg_alpha="50"
+text_xoffset="20"
+text_yoffset="10"
+text_size="11"
+text_bold="false"
+text_font="Verdana"
+link_xoffset="-2"
+link_yoffset="5"
+link_text_size="11"
+link_text_bold="false"
+link_font="Verdana"
+border="5"
+corner_radius="5"
+shadow_alpha="40"
+shadow_offset="2"
+shadow_size="5"
+shadow_spread="0"
+friction=".3"
+bg_color="5E5F3D"
+border_color="FFFFFF"
+thumb_bg_color="FFFFFF"
+nav_color="999999"
+nav_slider_color="000000"
+txt_color="FFFFFF"
+text_bg_color="000000"
+link_text_color="666666"
+link_text_over_color="FF9900"
+auto_size="true"
+showHideCaption="true"
+autoShowFirst="false"
+disableThumbOnOpen="true"
+
+thmb_caption_offset="1"
+thumb_text_font="Verdana"
+thumb_text_size="10"
+thumb_txt_color="FFFFFF"
+thumb_text_bold="false"
+thumb_caption_width="90"
+thumb_text_align="center"
+
+>
+<pic image="images_thinveneer/arizona_buckskin.jpg" title="Arizona Buckskin" caption="Arizona  " />
+<pic image="images_thinveneer/arizona_class_oak.jpg" title="Arizona Classic/Oak" caption="Arizona  " />
+<pic image="images_thinveneer/arizona_ledge_sunset.jpg" title="Arizona Ledge/Sunset" caption="Arizona  " />
+<pic image="images_thinveneer/bedrock_buff.jpg" title="Bedrock Buff" caption="Bedrock  " />
+<pic image="images_thinveneer/caprock_canyon.jpg" title="Caprock Canyon" caption="Caprock  " />
+<pic image="images_thinveneer/limestone_creme.jpg" title="Limestone Creme" caption="Limestone  " />
+<pic image="images_thinveneer/limestone_fossil.jpg" title="Limestone Fossil" caption="Limestone  " />
+<pic image="images_thinveneer/lueders_rough_back.jpg" title="Lueders Rough Back" caption="Lueders  " />
+<pic image="images_thinveneer/mexican_rosewood.jpg" title="Mexican Rosewood" caption="Mexican  " />
+<pic image="images_thinveneer/oklahoma_buff_peach_chop.jpg" title="Oklahoma Buff/Peach - Chop" caption="Oklahoma  " />
+<pic image="images_thinveneer/oklahoma_buff_peach_fieldstone.jpg" title="Oklahoma Buff/Peach - Fieldstone" caption="Oklahoma  " />
+<pic image="images_thinveneer/oklahoma_buff_peach_fieldstone_030.jpg" title="Oklahoma Buff/Peach - Fieldstone" caption="Oklahoma  " />
+<pic image="images_thinveneer/oklahoma_choc_blue.jpg" title="Oklahoma Chocolate/Blue" caption="Oklahoma  " />
+<pic image="images_thinveneer/oklahoma_choc_gold.jpg" title="Oklahoma Chocolate/Gold" caption="Oklahoma  " />
+<pic image="images_thinveneer/oklahoma_sunset.jpg" title="Oklahoma Sunset" caption="Oklahoma  " />
+<pic image="images_thinveneer/oklahoma_sunset_054.jpg" title="Oklahoma Sunset" caption="Oklahoma  " />
+<pic image="images_thinveneer/pennsylvania_copper_mtn_light_012.jpg" title="Pennsylvania Copper/Mountain/Light" caption="Pennsylvania  " />
+<pic image="images_thinveneer/pennsylvania_copper_mtn_light_014.jpg" title="Pennsylvania Copper/Mountain/Light" caption="Pennsylvania  " />
+<pic image="images_thinveneer/pennsylvania_full_color.jpg" title="Pennsylvania Full Color" caption="Pennsylvania  " />
+<pic image="images_thinveneer/pennsylvania_lilac.jpg" title="Pennsylvania Lilac" caption="Pennsylvania  " />
+<pic image="images_thinveneer/pennsylvania_weathered_edge.jpg" title="Pennsylvania Weathered Edge" caption="Pennyslvania  " />
+
+</gallery>

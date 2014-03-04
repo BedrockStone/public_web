@@ -1,0 +1,89 @@
+<gallery 
+rows="4"
+cols="5"
+stage_width="713"
+stage_height="500"
+galleryMargin="40"
+thumb_width="80"
+thumb_height="80"
+thumb_space="24"
+thumbs_x="auto"
+thumbs_y="auto"
+large_x="auto"
+large_y="auto"
+nav_x="0"
+nav_y="0"
+nav_slider_alpha="50"
+nav_padding ="7"
+use_flash_fonts="false"
+nav_text_size="11"
+nav_text_bold="false"
+nav_font="Verdana"
+bg_alpha="100"
+text_bg_alpha="50"
+text_xoffset="20"
+text_yoffset="10"
+text_size="11"
+text_bold="false"
+text_font="Verdana"
+link_xoffset="-2"
+link_yoffset="5"
+link_text_size="11"
+link_text_bold="false"
+link_font="Verdana"
+border="5"
+corner_radius="5"
+shadow_alpha="40"
+shadow_offset="2"
+shadow_size="5"
+shadow_spread="0"
+friction=".3"
+bg_color="5E5F3D"
+border_color="FFFFFF"
+thumb_bg_color="FFFFFF"
+nav_color="999999"
+nav_slider_color="000000"
+txt_color="FFFFFF"
+text_bg_color="000000"
+link_text_color="666666"
+link_text_over_color="FF9900"
+auto_size="true"
+showHideCaption="true"
+autoShowFirst="false"
+disableThumbOnOpen="true"
+
+thmb_caption_offset="1"
+thumb_text_font="Verdana"
+thumb_text_size="10"
+thumb_txt_color="FFFFFF"
+thumb_text_bold="false"
+thumb_caption_width="90"
+thumb_text_align="center"
+
+>
+<pic image="images_riverrock/arizona_multicolors.jpg" title="ARIZONA - Multi-Color Small" caption="Arizona  " />
+<pic image="images_riverrock/arizona_multicolorm.jpg" title="ARIZONA - Multi-Color Medium" caption="Arizona  " />
+<pic image="images_riverrock/arizona_multicolorl.jpg" title="ARIZONA - Multi-Color Large" caption="Arizona  " />
+<pic image="images_riverrock/ariz_riverrock_s.jpg" title="ARIZONA - Riverrock Small" caption="Arizona  " />
+<pic image="images_riverrock/ariz_riverrock_m.jpg" title="ARIZONA - Riverrock Medium" caption="Arizona  " />
+<pic image="images_riverrock/ariz_riverrock_m1.jpg" title="ARIZONA - Riverrock Medium" caption="Arizona  " />
+<pic image="images_riverrock/ariz_riverrock_l.jpg" title="ARIZONA - Riverrock Large" caption="Arizona  " />
+<pic image="images_riverrock/ariz_riverrock_xl.jpg" title="ARIZONA - Riverrock X-Large" caption="Arizona  " />
+<pic image="images_riverrock/blueweathered_s.jpg" title="BLUE WEATHERED - Small" caption="Blue Weather  " />
+<pic image="images_riverrock/blueweathered_l.jpg" title="BLUE WEATHERED - Large" caption="Blue Weather  " />
+<pic image="images_riverrock/blueweathered_wf.jpg" title="BLUE WEATHERED - Waterfall Flat" caption="Blue Weather  " />
+<pic image="images_riverrock/mountainwhite_s.jpg" title="MOUNTAIN WHITE - Small" caption="Mountain  " />
+<pic image="images_riverrock/mountainwhite_l.jpg" title="MOUNTAIN WHITE - Large" caption="Mountain  " />
+<pic image="images_riverrock/mountain_white_river.jpg" title="MOUNTAIN WHITE - River" caption="Mountain  " />
+<pic image="images_riverrock/okla_river_caramels.jpg" title="OKLAHOMA - River Caramel Small" caption="Oklahoma  " />
+<pic image="images_riverrock/okla_river_caramelm.jpg" title="OKLAHOMA - River Caramel Medium" caption="Oklahoma  " />
+<pic image="images_riverrock/peru_moonrockr.jpg" title="PERU - Moonrock Red" caption="Peru  " />
+<pic image="images_riverrock/peru_moonrockbg.jpg" title="PERU - Moonrock Blue/Green" caption="Peru  " />
+<pic image="images_riverrock/peru_moonrockbgsm.jpg" title="PERU - Moonrock Blue/Green Small & Medium" caption="Peru  " />
+<pic image="images_riverrock/peru_moonrockb.jpg" title="PERU - Moonrock Black" caption="Peru  " />
+<pic image="images_riverrock/peru_moonrock_green.jpg" title="PERU - Moonrock Green" caption="Peru  " />
+<pic image="images_riverrock/peru_moonrock_green_1.jpg" title="PERU - Moonrock Green" caption="Peru  " />
+<pic image="images_riverrock/peru_moonrock_charcoal.jpg" title="PERU - Moonrock Charcoal" caption="Peru  " />
+<pic image="images_riverrock/texas_moss.jpg" title="TEXAS - Moss Rock" caption="Texas  " />
+
+</gallery>
